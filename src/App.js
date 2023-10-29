@@ -8,8 +8,9 @@ function App() {
   return (
     <div className='container is-fluid'>
         <CarForm />
-        <CarList />
         <CarSearch />
+        <hr />
+        <CarList />
         <CarValue />
     </div>
   )

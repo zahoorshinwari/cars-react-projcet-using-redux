@@ -34,6 +34,10 @@ function CarForm() {
     event.preventDefault()
      
     dispatch(addCar({ name, cost}))
+
+    // to empty the name and cost when the form submitted
+    // dispatch(changeCost(0))
+    // dispatch(changeName(''))
   } 
 
   return (
