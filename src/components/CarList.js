@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { useSelector, useDispatch } from 'react-redux'
 import { removeCar } from '../store'
 import { formReducer } from '../store/slices/formSlice'

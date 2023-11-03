@@ -10,6 +10,7 @@ function App() {
         <CarForm />
         <CarSearch />
         <hr />
+        <hr />
         <CarList />
         <CarValue />
     </div>
